@@ -1,0 +1,13 @@
+name: 'Assign PR Author as Assignee'
+description: 'GitHub Action for auto assigning author of PR as the assignee'
+author: 'itsOliverBott'
+inputs:
+  token:
+    description: 'GitHub token for repository access'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: 'user-plus'
+  color: 'green'
