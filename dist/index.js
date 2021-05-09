@@ -5976,7 +5976,6 @@ const github = __importStar(__webpack_require__(438));
 (() => __awaiter(void 0, void 0, void 0, function* () {
     var _a, _b, _c, _d, _e, _f, _g;
     try {
-        core.info("yeah");
         const context = github === null || github === void 0 ? void 0 : github.context;
         const token = core.getInput('token', { required: true });
         if (!token) {

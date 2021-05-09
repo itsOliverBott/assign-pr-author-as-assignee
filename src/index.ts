@@ -1,12 +1,6 @@
 import * as core from '@actions/core';
 import * as github from '@actions/github';
-import { Context } from 'vm';
-
-export interface IContextIssue {
-    owner: string;
-    repo: string;
-    number: number;
-}
+import { Context } from '@actions/github/lib/context';
 
 (async () => {
     try {
